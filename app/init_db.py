@@ -1,8 +1,8 @@
-'''
+"""
 Run the file using `PYTHONPATH=. python app/init_db.py`
-Test if it succeeded using ` psql -U bothainakarakrah -d fraud_db`
-Then `\dt`
-'''
+Test if it succeeded using `psql -U bothainakarakrah -d fraud_db``
+then `\dt`
+"""
 from app.database import Base, engine
 from app.models import TransactionRecord
 

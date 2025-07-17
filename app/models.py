@@ -10,3 +10,4 @@ class TransactionRecord(Base):
     merchant_id = Column(String)
     category = Column(String)
     is_fraud = Column(Boolean, default=False, nullable=False)
+    risk_score = Column(Float)
