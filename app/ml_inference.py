@@ -35,4 +35,4 @@ def batch_run_inference(transactions: list[Transaction]) -> list[float]:
     batch = torch.stack([encode_transaction(tx) for tx in transactions]).to(device)
     with torch.no_grad():
         outputs = model(batch)
-    return outputs.squeeze().tolist()  # قائمة احتمالات
+    return outputs.squeeze().tolist()
