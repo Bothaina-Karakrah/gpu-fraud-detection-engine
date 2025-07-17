@@ -1,0 +1,8 @@
+## To download the req requirements `pip install -r requirements.txt`
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+torch
+psycopg2-binary
+pytest
